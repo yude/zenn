@@ -65,7 +65,7 @@ published: true
         wget https://raw.githubusercontent.com/mastodon/mastodon/main/.env.production.sample .env.production
         ```
     2. 後の設定で必要となる文字列を生成します。
-        これらの文字列は、ステップ 3.3 で使用しますから、安全な場所に保管してください。
+        これらの文字列は、ステップ 3 で使用しますから、安全な場所に保管してください。
         1. 文字列 A を生成します。
             2 箇所で使用します。別々の文字列でなければなりませんから、**2 回実行してそれぞれを保管**してください。
             ```shell
