@@ -3,7 +3,7 @@ title: "また Arch Linux をインストールしようとしている私へ"
 emoji: "🅰"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["archlinux"]
-published: false
+published: true
 ---
 
 ## はじめに
