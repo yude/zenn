@@ -1,5 +1,5 @@
 ---
-title: "また Arch Linux をインストールしようとしている私へ"
+title: "Arch Linux のインストール"
 emoji: "🅰"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["archlinux"]
@@ -18,7 +18,6 @@ published: true
     ```
 - この記事では、デスクトップ環境の導入を行いません。
     - すべての手順を終えた後で、デスクトップ環境を追加できます。
-- タイトルは [KusaReMKN 氏](https://zenn.dev/kusaremkn/scraps/5f5b91c9b5df8a) のパクリです。
 
 ## 手順
 
