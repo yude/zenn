@@ -285,7 +285,7 @@ published: true
                 2. 以下の行をコメントアウトします。
 
                     ```plain
-                    %wheel  ALL=(ALL)       ALL
+                    %wheel  ALL=(ALL:ALL)       ALL //この行をコメントアウト
                     ```
 
         7. ブートローダーを導入する
