@@ -152,7 +152,7 @@ published: true
         以下のコマンドを実行します。
 
         ```shell
-        pacstrap /mnt base base-devel linux linux-firmware bash-completions nano sudo refind networkmanager
+        pacstrap /mnt base base-devel linux linux-firmware bash-completion nano sudo refind networkmanager
         ```
 
     7. インストールしたシステムの基本的な設定をする
