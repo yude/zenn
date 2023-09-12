@@ -129,17 +129,16 @@ published: true
         - `fdisk -l` で、設定したパーティションを確認できます。
 
     5. パーティションをマウントして、swap の使用を開始する
-
-        - root パーティションを `/mnt` にマウントします。
-
-            ```shell
-            mount [root パーティションのデバイス ファイル] /mnt
-            ```
-
         - EFI パーティションを `/mnt/boot` にマウントします。
 
             ```shell
             mount -m [EFI パーティションのデバイス ファイル] /mnt/boot
+            ```
+  
+        - root パーティションを `/mnt` にマウントします。
+
+            ```shell
+            mount [root パーティションのデバイス ファイル] /mnt
             ```
 
         - swap の使用を開始します。
@@ -148,14 +147,14 @@ published: true
             swapon [swap パーティションのデバイス ファイル]
             ```
 
-    6. Arch Linux の基本的なシステムをインストールする
+    7. Arch Linux の基本的なシステムをインストールする
         以下のコマンドを実行します。
 
         ```shell
         pacstrap /mnt base base-devel linux linux-firmware bash-completion nano sudo refind networkmanager
         ```
 
-    7. インストールしたシステムの基本的な設定をする
+    8. インストールしたシステムの基本的な設定をする
 
         1. `/etc/fstab` の生成
             以下のコマンドを実行します。
@@ -321,7 +320,7 @@ published: true
                 - rEFInd の設定の間違い
                 - `/etc/fstab` の記述の間違い
 
-    8. ブート後の基本的な設定を行う
+    9. ブート後の基本的な設定を行う
         - 以下の操作は、ブート後ログインして行います。
 
         1. インターネットに接続する
